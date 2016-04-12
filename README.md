@@ -1,21 +1,29 @@
-# Designkit Sample
+# Designkit Highlight
 
 ## Install
 
 ```bash
-npm i designkit-*
+npm i designkit-highlight
 ```
 
 ## Usage
 
 ```html
-
+<span class="inline-highlight">#123456</span>
 ```
 
 ## The CSS
 
 ```css
-
+.inline-highlight {
+  background: #E2E5E9;
+  border-radius: 2px;
+  color: #76899A;
+  font-size: 1.1rem;
+  font-weight: normal;
+  padding: .2rem .5rem;
+  position: relative;
+}
 ```
 
 ## Author
